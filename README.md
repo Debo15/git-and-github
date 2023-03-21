@@ -21,7 +21,7 @@
 - How to use GitHub
   - Sign up
   - Create a repo
-  - Connect your local repo with the remote one
+  - Connect your local repo with the remote one (e.g `git remote add origin <repo url> && git branch -M main && git -u origin main`)
   - Pull changes from the remote repo into the local repo (e.g `git pull`)
   - Push changes from the local repo into the remote repo (e.g `git push origin ...`)
   - Make a pull request and issue
