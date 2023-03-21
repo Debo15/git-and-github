@@ -1,0 +1,28 @@
+# Git and GitHub
+
+- Introducation
+- What's git
+- What's github
+- What's the difference between both
+- How to use git
+	- Download and install git
+	- Add configs (e.g `git config --global user.name`)
+	- Create a repo (e.g `git init`, `git init -b ...`)
+	- Update changes (e.g change the code)
+	- Check on tracked and untracked files (e.g `git status`)
+	- Add changes (e.g `git add ...`)
+	- Ban specific types of files (e.g `.gitignore`)
+	- Commit changes (e.g `git commit -m ...`)
+	- Check the commit's log(e.g `git log -p ...`)
+	- Create branch (e.g `git branch ...`, `git switch -c ...`)
+	- Switch to branch (e.g `git switch ...`)
+	- Merge branch (e.g `git merge -m ...`)
+	- Delete branch(e.g `git branch -d ...`)
+- How to use GitHub
+  - Sign up
+  - Create a repo
+  - Connect your local repo with the remote one (e.g `git remote add origin <repo url> && git branch -M main && git -u origin main`)
+  - Pull changes from the remote repo into the local repo (e.g `git pull`)
+  - Push changes from the local repo into the remote repo (e.g `git push origin ...`)
+  - Make a pull request and issue
+- Summary
